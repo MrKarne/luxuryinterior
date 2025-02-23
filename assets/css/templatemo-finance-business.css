@@ -342,7 +342,7 @@ header .navbar {
   display: block;
   overflow: hidden;
   position: relative;
-  text-align: center
+  text-align: center;
 }
 
 .img-fill img {
@@ -388,14 +388,20 @@ header .navbar {
 
 .Modern-Slider .item-1 .img-fill {
 	background-image: url(../images/slide_01.jpg);
+	background-color: rgba(0, 0, 0, 0.5); /* Darkens image */
+    background-blend-mode: multiply;
 }
 
 .Modern-Slider .item-2 .img-fill {
 	background-image: url(../images/slide_02.jpg);
+	background-color: rgba(0, 0, 0, 0.5); /* Darkens image */
+    background-blend-mode: multiply;
 }
 
 .Modern-Slider .item-3 .img-fill {
 	background-image: url(../images/slide_03.jpg);
+	background-color: rgba(0, 0, 0, 0.5); /* Darkens image */
+    background-blend-mode: multiply;
 }
 
 .Modern-Slider .NextArrow{
